@@ -1,22 +1,19 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #0b0b0a;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.graphs{
+    background-image: url('../../public/images/graph.png');
 }
 
-.text-gradient {
-  background: rgb(86, 72, 251);
-  background: linear-gradient(
-    90deg,
-    rgba(86, 72, 251, 1) 0%,
-    rgba(0, 255, 153, 1) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.bg_green{
+    background-image: url('../../public/images/Green_Bg.png');
 }
 
-.input {
-  @apply w-[328px] h-[50px] rounded-[10px] px-[5px] bg-[#1C1C1C] text-[16px] text-[#5A5A5A] outline-none pl-[14px];
+.bg_pink{
+    background-image: url('../../public/images/pink_bg.png');
 }
+
